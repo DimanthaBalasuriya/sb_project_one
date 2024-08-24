@@ -21,8 +21,8 @@ public class ProductController {
     }
 
     @GetMapping("/getProductById/{productId}")
-    public ProductDTO getProductById(@PathVariable Integer productID) {
-        return productService.getProductById(productID);
+    public ProductDTO getProductById(@PathVariable Integer productId) {
+        return productService.getProductById(productId);
     }
 
     @PostMapping("/addProduct")
