@@ -4,21 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f95cd865-1b7c-4535-9b72-c52b80678f83" name="Changes" comment="kafka Initialize">
-      <change afterPath="$PROJECT_DIR$/base/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/example/base/BaseApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/example/base/DTO/OrderEventDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/src/test/java/com/example/base/BaseApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order_service/config/KafkaTopicConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order_service/dto/OrderEventDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order_service/kafka/OrderProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="f95cd865-1b7c-4535-9b72-c52b80678f83" name="Changes" comment="Kafka implementation completed.">
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/com/example/inventory_service/kafka/OrderConsumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order_service/controller/OrdersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order_service/controller/OrdersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +25,11 @@
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -92,7 +88,7 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.OrderServiceApplication">
+  <component name="RunManager" selected="Application.InventoryServiceApplication">
     <configuration name="BaseApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.base.BaseApplication" />
       <module name="base" />
@@ -187,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724575499757</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Kafka Producer creation for order service">
+      <option name="closed" value="true" />
+      <created>1724582188110</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724582188110</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -233,6 +237,8 @@
     <MESSAGE value="Adding WebFlux dependency" />
     <MESSAGE value="Adding order register validation" />
     <MESSAGE value="kafka Initialize" />
-    <option name="LAST_COMMIT_MESSAGE" value="kafka Initialize" />
+    <MESSAGE value="Kafka Producer creation for order service" />
+    <MESSAGE value="Kafka implementation completed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Kafka implementation completed." />
   </component>
 </project>
