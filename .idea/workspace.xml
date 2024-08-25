@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f95cd865-1b7c-4535-9b72-c52b80678f83" name="Changes" comment="Adding order register validation">
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order_service/common/ErrorOrderResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order_service/common/OrderResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order_service/common/SuccessOrderResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order_service/config/WebClientConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/src/main/java/com/example/inventory_service/controller/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/src/main/java/com/example/inventory_service/controller/InventoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/src/main/java/com/example/inventory_service/repo/InventoryRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/src/main/java/com/example/inventory_service/repo/InventoryRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order_service/controller/OrdersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order_service/controller/OrdersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order_service/service/OrdersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order_service/service/OrdersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/example/product_service/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/example/product_service/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/example/product_service/repo/ProductRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/example/product_service/repo/ProductRepo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,21 +24,24 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "DimanthaBalasuriya"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DimanthaBalasuriya&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/DimanthaBalasuriya/spring_project_abc.git",
-    "accountId": "bc63c67c-c938-4d9c-9a11-4a80a64da592"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DimanthaBalasuriya/spring_project_abc.git&quot;,
+    &quot;accountId&quot;: &quot;bc63c67c-c938-4d9c-9a11-4a80a64da592&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2l61dTsyCnoOn776wfrV1RAerVB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -59,6 +52,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Application.InventoryServiceApplication.executor": "Run",
     "Application.OrderServiceApplication.executor": "Run",
     "Application.ProductServiceApplication.executor": "Run",
@@ -68,7 +62,8 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/User/Documents/Learn/Spring-boot/Clothing_company/Cloth_Comapny/product"
+    "last_opened_file_path": "C:/Users/User/Documents/Learn/Spring-boot/Clothing_company/Cloth_Comapny",
+    "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -83,7 +78,7 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.OrderServiceApplication">
+  <component name="RunManager" selected="Application.InventoryServiceApplication">
     <configuration name="InventoryServiceApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.inventory_service.InventoryServiceApplication" />
       <module name="inventory" />
@@ -149,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724493134931</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adding order register validation">
+      <option name="closed" value="true" />
+      <created>1724499553923</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724499553923</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
