@@ -1,1 +1,1 @@
-Spring boot microservices project
+Inventory manager
